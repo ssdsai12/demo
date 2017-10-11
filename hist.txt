@@ -1,0 +1,10 @@
+  476  cd demo
+  477  cat README.md
+  478  echo 'saissd12' > test.txt
+  479  gid add test.txt
+  480  git add test.txt
+  481  git commit -m "added test.txt"
+  482  git push origin master
+  483  history | tail - 10 > hist.txt
+  484  cat history | tail -10  > hist.txt
+  485  history | tail -10  > hist.txt
